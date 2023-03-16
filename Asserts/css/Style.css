@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif,Impact, 'Arial Narrow Bold', sans-serif;
+    /* width: 100%; */
   }
   .header {
     width: 100%;
@@ -191,14 +192,15 @@ text-align: center;
 {
   background-color: #ffffff;
   display: inline-block;
-  height: 200px;
+  height: 100px;
   width: 100%;
 }
 .f_btn_1
 {
   display: inline-block;
-  padding-left: 3%;
+  padding-left: 2%;
   padding-top: 4%;
+  /* padding-right: 70%; */
 }
 .myButton_f {
 	background-color:#000000;
@@ -243,4 +245,132 @@ text-align: center;
   position: relative;
   border-collapse: collapse;
   /* z-index: 5; */
+}
+.f_txt
+{
+  font-size: x-large;
+  font-family: 'Caveat', cursive;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  text-align: justify;
+  /* padding-left: 0%; */
+  /* padding-right: 75%; */
+  padding-top: 4%;
+  position: absolute;
+  display: inline-block;
+  text-align: left;
+  /* font-style: bold  ; */
+}
+.box3{
+  background-color: #FEFEFE;
+  color: #000000;
+  border: 0.1px solid #ffffff;
+  padding: 15px 70px;
+  font-size: 0.7em;
+  border-radius: 10px;
+  position: absolute;
+  width: 365px;
+  /* padding-top: 600px; */
+  margin-left: 55.1%;
+  /* padding-bottom: 80%; */
+}
+.circle3 {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  padding: 6px;
+  background: #000000;
+  border: 0px solid #000;
+  color: #fffefe;
+  top: 785px;
+  text-align: center;
+  font: 1em Arial, sans-serif;
+  position: absolute;
+  left: 860px;
+  top: 720px
+  }
+
+.slide-placement
+{
+  padding-top: 11.7%; 
+  /* display: inline-block; */
+  display: inline-block;
+  position: absolute;
+  padding-left: 10.8%;
+}
+.slide-placement_1
+{
+  padding-top: 5%;
+  /* display: inline-block; */
+  display: inline-block;
+  position: absolute;
+  padding-left: 26.2%;
+}
+.slide-placement_2
+{
+  padding-top: 5%; 
+  display: inline-block; 
+  position: absolute;
+  padding-right: 19%;
+}
+.box1{
+  background-color: hsl(58, 100%, 76%);
+  color: #000000;
+  border: 0.1px solid #ffffff;
+  padding: 15px 70px;
+  font-size: 0.7em;
+  border-radius: 10px;
+  position: absolute;
+  width: 365px;
+  /* padding-top: 600px; */
+  margin-left: 55.1%;
+  /* padding-bottom: 80%; */
+}
+#circle3 {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  padding: 6px;
+  background: #000000;
+  border: 0px solid #000;
+  color: #fffefe;
+  top: 90px; 
+  text-align: center;
+  font: 1em Arial, sans-serif;
+  position: absolute;
+  /* padding-left:80%; */
+  left: 60%;
+  display: inline-block;
+  font-smooth: 
+  }
+
+.box2{
+  background-color: #fff1c4;
+  color: #000000;
+  border: 0.1px solid #ffffff;
+  padding: 15px 70px;
+  font-size: 0.7em;
+  border-radius: 10px;
+  position: absolute;
+  width: 450px;
+  /* padding-top: 600px; */
+  margin-left: 55.1%;
+  /* padding-bottom: 80%; */
+}
+.circle1
+{
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  padding: 6px;
+  background: #000000;
+  border: 0px solid #000;
+  color: #fffefe;
+  top: 90px; 
+  text-align: center;
+  font: 1em Arial, sans-serif;
+  position: absolute;
+  /* padding-left:80%; */
+  left: 60%;
+  display: inline-block; 
 }
